@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 110, 42);
+}
+
+.list .itens {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.lista .itens .links {
+    width: 400px;
+    display: block;
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.lista .itens .links:hover {
+    border-color: green;
+}
+
+.lista .links .imagem {
+    width: 100%;
+    aspect-ratio: 16 / 12;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.lista .links .escudo {
+    color: black;
+    background: pink;
+    margin: 16px 0 18px;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.lista .links .titulo {
+    font-size: 1.19rem;
+    color: black;
+    font-weight: 600;
+}
+
+.lista .links .botao-direita {
+    height: 35px;
+    width: 35px;
+    color: blue;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid violet;
+    transform: rotate(-45deg);
+}
