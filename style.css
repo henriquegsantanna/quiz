@@ -11,6 +11,11 @@ body {
     background-color: rgb(255, 110, 42);
 }
 
+.carrossel {
+    padding: 200px 10px;
+    overflow: hidden;
+}
+
 .list .itens {
     list-style: none;
 }
@@ -22,6 +27,7 @@ body {
 }
 
 .lista .itens .links {
+    user-select: none;
     width: 400px;
     display: block;
     background: #ffffff;
@@ -72,4 +78,10 @@ body {
     cursor: pointer;
     border: 2px solid violet;
     transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.lista .links:hover .botao-direita {
+    color: #ffffff;
+    background: #5372f0;
 }
